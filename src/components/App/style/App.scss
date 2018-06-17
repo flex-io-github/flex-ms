@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+    height: 100%;
+    overflow:hidden;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.App .app-header{
+    height: 40px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+}
+
+.App .app-content-container{
+    display: flex;
+    // justify-content: center;
+    align-items: stretch;
+    height: calc(100vh - 40px);
+    // background-color: #FAFAFA;
+    overflow:hidden;
+}
+
+.app-content-container .app-content {
+    // background-color: #f1f1f1;
+    // color: white;
+    // width: 950px;
+    // height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    overflow:hidden;
+}
+.appNav{
+    background-color:alpha($color: #000000);
+    min-height: 100%;
+}
+
+.app-content-left-nav{
+    // background-color: red;
+    min-width: 200px;
+    // width: 150px;
+    overflow-y: auto;
+    padding-right: 10px;
+    border-right: 1px solid #E5E3E3;
+}
+
+.app-content-route{
+    // background-color: green;
+    // min-width: 700px;
+    flex-grow: 1;
+    display: flex;
+    // overflow-y: auto;
+}
+
+
+.app-content-route, .app-content-left-nav{
+    // padding: 2em;
+}
+

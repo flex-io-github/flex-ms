@@ -1,0 +1,25 @@
+.app-header-content{
+    // background: gray;
+    min-width: 950px;
+    display: flex;
+    flex-direction: row;
+}
+
+.app-header-content>div{
+
+}
+
+.app-header-left{
+    width: 250px;
+    max-width: 250px;
+}
+
+.app-header-center{
+    width: 100%;
+    max-width: 450px;
+}
+
+.app-header-right{
+    width: 250px;
+    max-width: 250px;
+}

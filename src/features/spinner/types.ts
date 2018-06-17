@@ -1,0 +1,1 @@
+export const SET_SPINNER = '@@SET_SPINNER'
